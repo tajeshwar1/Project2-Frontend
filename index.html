@@ -11,6 +11,12 @@
     <title>Restaurant Website</title>
 </head>
 <body>
+    <script>
+        function validate(){
+
+            alert("Your respnse has been submitted successfully !")
+        }
+    </script>
    <nav class="navbar">
    <div class="container navbar-container">
      <input type='checkbox'>
@@ -219,9 +225,9 @@
         <div class="contact-image">
             <img src="/img/restaurant-image.jpg" alt="">
         </div>
-        <form action="" class="form-container">
+        <form onsubmit="validate()"  action="index.html" class="form-container">
         <div >
-            <form action="">
+            
             <h2>Contact Us</h2>
             <input type="text" placeholder="Name" required >
             <input type="email" placeholder="Email" required >
