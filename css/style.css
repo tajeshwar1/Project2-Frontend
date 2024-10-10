@@ -433,6 +433,9 @@ transform: translateX(150%);
 .social-media-links i{
     margin: 2rem;
 }
+.social-media-links i:hover{
+    cursor:pointer
+}
 /* .about-footer{
     background: #262328;
     padding: 2rem;
